@@ -1,7 +1,7 @@
-const Colors = {
-  red100: "#FF0000",
-  red200: "#FF0001",
-  red300: "#FF0002",
+const typography = {
+  family: "Arial, Sans",
+  weight: "400",
+  lineHeight: "2em",
 };
 
-export default Colors;
+export default typography;
