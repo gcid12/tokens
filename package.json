@@ -1,0 +1,23 @@
+{
+  "name": "@skillzet/tokens",
+  "version": "1.0.0",
+  "description": "Design Tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcid12/tokens.git"
+  },
+  "keywords": [
+    "Design",
+    "Tokens"
+  ],
+  "author": "Gerardo Cid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcid12/tokens/issues"
+  },
+  "homepage": "https://github.com/gcid12/tokens#readme"
+}
