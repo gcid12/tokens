@@ -1,7 +1,7 @@
 import { colors, typography } from "../tokens";
-const contrast = {
+const dark = {
   palette: {
-    type: "dark",
+    type: "clear",
     primary: {
       main: colors.red100,
     },
@@ -30,4 +30,4 @@ const contrast = {
   },
 };
 
-export default contrast;
+export default dark;

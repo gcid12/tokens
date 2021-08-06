@@ -1,12 +1,11 @@
-import { colors, typography } from "../tokens";
 const dark = {
   palette: {
     type: "dark",
     primary: {
-      main: colors.red100,
+      main: "#FF0000",
     },
     secondary: {
-      main: colors.red200,
+      main: "#FF00FF",
     },
     background: {
       default: "#4c69f6",

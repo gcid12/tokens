@@ -1,7 +1,8 @@
-const typography = {
+const Typography = {
   family: "Arial, Sans",
-  weight: "400",
+  bodyRegular: "400",
+  bodyBold: "800",
   lineHeight: "2em",
 };
 
-export default typography;
+export default Typography;
