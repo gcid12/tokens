@@ -1,12 +1,12 @@
-import { colors, typography } from "../tokens";
-const clear = {
+import { Colors } from "../tokens";
+const Clear = {
   palette: {
     type: "clear",
     primary: {
-      main: colors.red100,
+      main: Colors.red100,
     },
     secondary: {
-      main: colors.red200,
+      main: Colors.red200,
     },
     background: {
       default: "#4c69f6",
@@ -14,9 +14,6 @@ const clear = {
     },
   },
   typography: {
-    body1: {
-      fontFamily: typography.family,
-    },
     fontFamily: "Bangers",
     caption: {
       fontFamily: "Do Hyeon",
@@ -30,4 +27,4 @@ const clear = {
   },
 };
 
-export default clear;
+export default Clear;

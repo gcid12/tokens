@@ -4,6 +4,13 @@
 ```
 npm i @skillzet/tokens
 ```
+To use inside a component:
+```
+import { colors } from "@skillzet/tokens";
+```
+```
+style={{backgroundColor:`${colors.red100}`}}
+```
 
 <hr/>
 

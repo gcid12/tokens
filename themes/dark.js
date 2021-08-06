@@ -1,5 +1,5 @@
 import { colors, typography } from "../tokens";
-const clear = {
+const dark = {
   palette: {
     type: "dark",
     primary: {
@@ -30,4 +30,4 @@ const clear = {
   },
 };
 
-export default clear;
+export default dark;
