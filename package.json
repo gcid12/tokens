@@ -1,6 +1,6 @@
 {
   "name": "@skillzet/tokens",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Design Tokens",
   "main": "index.js",
   "scripts": {
