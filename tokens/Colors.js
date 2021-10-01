@@ -1,6 +1,9 @@
-export default Colors;
+// https://www.figma.com/file/l62sFQ3ix9Wc4aV7DF8XHb/MKP-LIGHT?node-id=0%3A7243
+// LAST SYNC: 10.01.21
 
-const Colors = {
+export const colors = {
+  white: "ffffff",
+  
   // GRAY
   gray25: "#f7f7f8",
   gray50: "#eeeff0",
@@ -61,7 +64,7 @@ const Colors = {
   purple700: "#4233d0",
   purple800: "#3b25c4",
   purple900: "#2d00b3",
-  purpleDefault: "#5048e8",
+  purpleDefault: "#6967ee",
   purpleLight: "#8b75ff",
   purpleDark: "#001eb5",
 
@@ -97,3 +100,5 @@ const Colors = {
   greenLight: "#b0e765",
   greenDark: "#4c8500",
 };
+
+export default colors;
