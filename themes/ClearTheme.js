@@ -1,4 +1,4 @@
-//1. REPLACE FOR YOUR TOKENS LOCATION (NPM, MONOREPO, etc..)
+//1. REPLACE WITH YOUR TOKENS LOCATION (NPM, MONOREPO, etc..)
 import colors from "../tokens/colors";
 import typography from "../tokens/typography";
 import { lightShadows } from '../tokens/shadows';
