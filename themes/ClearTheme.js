@@ -4,7 +4,8 @@ import typography from "../tokens/typography";
 import { lightShadows } from '../tokens/shadows';
 import shape from '../tokens/shape';
 
-//2. REPLACE CURRENT MUI THEME FOR THIS
+//2. REPLACE 'baseOptions' and 'themesOptions' WITH THIS:
+// (Look for this file: /src/theme/index.js)
 export const baseOptions = {
   direction: 'ltr',
   components: {
@@ -80,21 +81,19 @@ export const baseOptions = {
     button: {
       fontWeight: 600,
     },
-    fontFamily:
-      '-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"',
     h1: typography.h1,
     h2: typography.h2,
     h3: typography.h3,
     h4: typography.h4,
     h5: typography.h5,
     h6: typography.h6,
-    overline: overline,
-    subtitle1: subtitle1,
-    subtitle2: subtitle2,
-    body1: body1,
-    body2: body2,
-    button: button,
-    caption: caption
+    overline: typography.overline,
+    subtitle1: typography.subtitle1,
+    subtitle2: typography.subtitle2,
+    body1: typography.body1,
+    body2: typography.body2,
+    button: typography.button,
+    caption: typography.caption
   },
 };
 
@@ -157,4 +156,3 @@ export const themesOptions = {
   }
 };
 
-export default themesOptions;
